@@ -1,0 +1,8 @@
+# Example trajectories
+./examples/trajectory/s-mba2pbi4_300K.log
+./examples/trajectory/S-MBA2PbI4_AVERAGE_300K.vasp
+./examples/trajectory/results/
+
+# Example static structures
+./examples/static/logs/*.log
+

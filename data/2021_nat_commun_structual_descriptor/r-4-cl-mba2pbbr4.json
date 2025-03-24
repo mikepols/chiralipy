@@ -1,0 +1,29 @@
+{
+    "structure": "structures/R-4-Cl-MBA2PbBr4_SCAN.vasp",
+    "center_elements": ["Pb", "Sn"],
+    "corner_elements": ["Br", "I"],
+    "cation_elements": ["N"],
+    "organic_elements": ["H", "C", "N", "Cl"],
+    "layer_directions": "z",
+    "mode": "structure",
+
+    "intraoctahedral_distortions": true,
+    "interoctahedral_distortions": true,
+    "planar_distortions": true,
+    "hydrogen_bond_asymmetry": true,
+    "planar_framework_helicity": true,
+    "out_of_plane_framework_helicity": true,
+    
+    "headgroup_orientation": true,
+    "headgroup_center": "H32C24N0Cl6",
+    "headgroup_end": "H41C32N1Cl7",
+
+    "cation_orientation": true,
+    "vector_fingerprints": [["H27C16N1Cl5", "H62C26N6Cl0"]],
+
+    "cation_helicity": true,
+    "cation_inversion": true,
+    "helicity_vectors": [1],
+    
+    "log": "logs/R-4-Cl-MBA2PbBr4_SCAN.log"
+}

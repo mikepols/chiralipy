@@ -1,0 +1,29 @@
+{
+    "structure": "structures/PEA2PbI4_SCAN.vasp",
+    "center_elements": ["Pb", "Sn"],
+    "corner_elements": ["Br", "I"],
+    "cation_elements": ["N"],
+    "organic_elements": ["H", "C", "N"],
+    "layer_directions": "z",
+    "mode": "structure",
+
+    "intraoctahedral_distortions": true,
+    "interoctahedral_distortions": true,
+    "planar_distortions": true,
+    "hydrogen_bond_asymmetry": true,
+    "planar_framework_helicity": true,
+    "out_of_plane_framework_helicity": true,
+
+    "headgroup_orientation": true,
+    "headgroup_center": "H42C30N0",
+    "headgroup_end": "H52C38N1",
+
+    "cation_orientation": true,
+    "vector_fingerprints": [["H34C16N2", "H54C18N6"]],
+
+    "cation_helicity": true,
+    "cation_inversion": true,
+    "helicity_vectors": [1],
+    
+    "log": "logs/PEA2PbI4_SCAN.log"
+}

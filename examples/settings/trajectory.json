@@ -1,0 +1,37 @@
+{
+    "structure": "path/to/poscar",              # structure path (supercell)
+    "center_elements": ["Pb", "Sn"],            # elements in center of octahedra
+    "corner_elements": ["Br", "I"],             # elements at corners of octahedra
+    "cation_elements": ["N"],                   # elements at center of headgroup of cation
+    "organic_elements": ["H", "C", "N"],        # organic species constituting cations
+    "layer_directions": "x",                    # layer direction; ["x", "y", "z"]
+
+    "mode": "trajectory",                       # analysis mode: structure/trajectory
+    "trajectory": "path/to/trajectory",         # trajectory path
+    "file_format": "ase-format",                # trajectory format in ASE
+    "n_skip": 20,                               # number of frames to skip
+    "average": true,                            # output average structure
+    "output_average": "path/to/average",        # average structure path
+
+    "intraoctahedral_distortions": true,        # determine intraoctahedral distortions
+    "interoctahedral_distortions": true,        # determine interoctahedral distortions
+    "planar_distortions": true,                 # determine planar distortions
+    "hydrogen_bond_asymmetry": true,            # determine hydrogen bond asymmetry
+    "planar_framework_helicity": true,          # determine framework helicity
+    "out_of_plane_framework_helicity": true,    # determine perpendicular framework helicity
+    
+    "headgroup_orientation": true,              # determine headgroup orientation
+    "headgroup_center": "fp_N",                 # fingerprint of N atoms in headgroup
+    "headgroup_end": "fp_H",                    # fingerprint of H atoms in headgroup
+
+    "cation_orientation": true,                 # determine cation orientation
+    "vector_fingerprints": [["fp1_a", "fp1_b"], ["fp2_a", "fp2_b"], ["fp3_a", "fp3_b"]], # vector fingerprint pairs
+
+    "cation_helicity": true,                    # determine cation helicity
+    "cation_inversion": true,                   # determine cation inversion
+    "helicity_vector": [3],                     # specify vector used in cation helicity
+    
+    "print_log": true,                          # output the log to terminal
+    "log": "path/to/log",                       # file to output log to
+    "folder": "results"                         # folder for results
+}

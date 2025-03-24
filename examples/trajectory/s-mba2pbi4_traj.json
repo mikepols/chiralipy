@@ -1,0 +1,37 @@
+{
+    "structure": "./S-MBA2PbI4.vasp",
+    "center_elements": ["Pb", "Sn"],
+    "corner_elements": ["Br", "I"],
+    "cation_elements": ["N"],
+    "organic_elements": ["H", "C", "N"],
+    "layer_directions": "y",
+
+    "mode": "trajectory",
+    "trajectory": "./s-mba2pbi4_300K.xdatcar",
+	"file_format": "vasp-xdatcar",
+    "n_skip": 0,
+    "average": true,
+    "output_average": "./S-MBA2PbI4_AVERAGE_300K.vasp",
+
+    "intraoctahedral_distortions": true,
+    "interoctahedral_distortions": true,
+    "planar_distortions": true,
+    "hydrogen_bond_asymmetry": true,
+    "planar_framework_helicity": true,
+    "out_of_plane_framework_helicity": true,
+
+    "headgroup_orientation": true,
+    "headgroup_center": "H38C24N0",
+    "headgroup_end": "H48C32N1",
+
+    "cation_orientation": true,
+    "vector_fingerprints": [["H32C16N1", "H38C24N0"], ["H32C16N1", "H38C22N2"], ["H32C16N1", "H52C18N5"], ["H46C16N4", "H46C16N4"], ["H40C14N3", "H40C14N3"]],
+
+    "cation_helicity": true,
+    "cation_inversion": true,
+    "helicity_vectors": [3],
+    
+    "print_log": false,
+    "log": "./s-mba2pbi4_300K.log",
+    "folder": "./results"
+}

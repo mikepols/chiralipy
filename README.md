@@ -77,6 +77,7 @@ ChiraliPy was used to analyze a variety of structures, experimental and DFT-opti
 ChiraliPy has been used in the following publications:
 - Pols *et al.*, *J. Phys. Chem. Lett.*, 15, 8057-8064 (2024), DOI:  [`10.1021/acs.jpclett.4c01629`](https://doi.org/10.1021/acs.jpclett.4c01629); code development, analysis of a variety of static 2D perovskites, and analysis of dynamics of  and dynamic MBA<sub>2</sub>PbI<sub>4</sub>.
 - Nurdillayeva *et al.*, *ACS Nano*, 15, 8057-8064 (2025), DOI:  [`10.1021/acsnano.5c00480`](https://doi.org/10.1021/acsnano.5c00480); investigation of the effect of water adsorption on the structural chirality of MBA-based chiral perovskites.
+- Pols *et al.*, *arXiv:2508.00158*, 1-8 (2025), DOI:  [`arXiv:2508.00158`](https://arxiv.org/abs/2508.00158); analysis of the effect of metal cation substitutions on structural and dynamic chirality in chiral 2D perovskites.
 
 ## References & Citing
 
